@@ -1,0 +1,43 @@
+@media(max-width: 680px){
+   
+    .icomenu {
+        display: block;
+        padding: 20px;
+    }
+    .logo {
+     justify-content: space-between;
+    }
+
+    .icot {
+        color: var(--verde);
+        font-size: 30px;
+    }
+
+    
+    .cabeza {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    
+    .menu {
+        display: none;
+        flex-direction: column;
+        justify-content: center;
+        background-color: var(--gris);
+        padding: 5px 10px;
+        width: 400px;
+    }
+
+    
+    .mpuntos {
+        border-bottom: 2px dotted var(--textos);
+    }
+
+    
+    .nuestros {
+        flex-direction: column;
+        justify-content: center;
+    }
+}

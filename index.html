@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="movil.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+</head>
+<body>
+<header class="cabeza ancho">
+    <div class="logo">
+        <figure class="contenedor_logo">
+            <img src="imagenes/logo_arriba.png" alt="Logo de la empresa">
+        </figure>
+            <div class="icomenu">
+        <a id="iconomenu" href="#"><i class="icot fa-solid fa-bars"></i></a>
+    </div>
+    </div>
+
+
+
+    <nav>
+        <ul id="cajamenu" class="menu">
+            <li class="mpuntos"><a href="#">Inicio</a></li>
+            <li class="mpuntos"><a href="#">Servicios</a></li>
+            <li class="mpuntos"><a href="#">Nuestros Productos</a></li>
+            <li class="mpuntos"><a href="#">Contactanos</a></li>
+        </ul> 
+    </nav>
+</header>
+    <section class="ancho">
+        <figure class="imagen ">
+            
+            <h1 class="textoimg">Cultivamos verduras orgánicas y las traemos a tu mesa</h1>
+        </figure>
+
+    </section>
+    <div class="center ancho">
+            <br>
+    <h1 class="titulosec">Nuestros Servicios</h1>
+    <h2 class="sub">Lo que ofrecemos</h2>
+    </div>
+  <section class="nuestros ancho">
+
+    <article class="servicio">
+    <figure>
+        <img src="imagenes/icono1.png" alt="Servicio 1">
+    </figure>
+    <h2 class="sub">Ganado Vacuno</h2>
+    <p>Carne de res producida sin ingenieria génetica, uso de radiación ionizante o todos de depuradora</p>
+    </article>
+    <article class="servicio">
+    <figure>
+        <img src="imagenes/icono2.png" alt="Servicio 1">
+    </figure>
+    <h2 class="sub">Productos Lácteos</h2>
+    <p>Los productos lácteos como la leche, el queso y el yogur contienen los nutrientes que su cuerpo necesita</p>
+    </article>
+    <article class="servicio">
+    <figure>
+        <img src="imagenes/icono3.png" alt="Servicio 1">
+    </figure>
+    <h2 class="sub">Frutas de la Huerta</h2>
+    <p>Cubre todo lo que necesita saber para cultivar y comercializar con éxito sus propias frutas orgánicas de huerta</p>
+    </article>
+  </section>
+  <footer class="pie ancho">
+        <figure>
+        <img src="imagenes/logo_abajo.png" alt="Logo de la empresa">
+        </figure>
+    </footer>
+     <script>
+   
+ //Icono Mnei
+    $("#iconomenu").click(function(){
+        $("#cajamenu").slideToggle();
+
+    });
+ </script>
+</body>
+
+</html>
